@@ -1,6 +1,17 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
+#hero{
+    text-align: center;
+    background-image: url("img/marbelintrees.jpg");
+    background-color: #cccc;
+    color:#F0FFF4;
+    border:3px solid #01330F;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px inline black;
+
+    
+}
 
 /* Projects */
 
