@@ -1,23 +1,73 @@
 /* Styles for Mobile Site */
-
+@media screen and (min-width:60em){
+    figure{
+        display: grid;
+        grid-template-columns:2fr 1fr;
+    }
+    figcaption{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:1.5rem;
+        margin-left: .5em;
+    }
+}
 /* Header & Hero */
 #hero{
     text-align: center;
-    background-image: url("img/marbelintrees.jpg");
-    background-color: #cccc;
-    color:#F0FFF4;
-    border:3px solid #01330F;
+    background-color: #F1C6B7;
+    border:3px solid #CFAA9E;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px inline black;
+    padding: 1em;
 
     
 }
+header{
+    background-color:#FACDBE;
+    font-family:"Playfair",sans-serif ;
+    text-align: center;
+}
 
-/* Projects */
+#projects{
+    border:3px dashed #CFAA9E;
+    border-radius: 50px;
+    text-align: center;
+    display:flex;
+    flex-direction: right; 
+    width:100%;
+    overflow: hidden;
+    
 
-/* Reviews */
+    
+}
+#project img{
+    max-width:100%;
+    height: auto;
+}
 
-/* Footer */
+#reviews{
+    padding: 2em;
+    background-color: #FACDBE;
+    
+    
+}
+#review{
+    background-color: #F1C6B7;
+    float:right;
+    border:4px solid #CFAA9E;
+    padding:2em;
+    width:100%;
+    text-align: center;
+
+
+}
+
+#footer{
+    background-color:#FACDBE;
+    font-family:"Playfair",sans-serif ;
+    text-align: center; 
+}
 
 
 /* Media state for Desktop site */
@@ -25,8 +75,10 @@
 
     /* Header & Hero */
 
-    /* Projects */
-
+    #Projects{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     /* Reviews */
 
     /* Footer */
